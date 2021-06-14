@@ -1,0 +1,8 @@
+name: server-project
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - flask
+variables:
+  FLASK_ENV: development
