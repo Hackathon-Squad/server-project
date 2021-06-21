@@ -2,7 +2,7 @@ FROM python:3.8-slim-buster
 
 ENV PYTHONUNBUFFERED=1
 
-RUN python -m pip install gunicorn flask
+RUN python -m pip install gunicorn flask python-dotenv pymongo dnspython
 
 WORKDIR /app
 COPY . /app
