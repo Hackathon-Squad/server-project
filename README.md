@@ -1,7 +1,5 @@
 # server-project
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ca26d256-3905-4db4-b147-81a6ac823c01/deploy-status)](https://app.netlify.com/sites/server-project/deploys)
-
 ## Project Setup
 
 1. Make sure that either [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Miniforge](https://github.com/conda-forge/miniforge) is installed
