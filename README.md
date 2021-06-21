@@ -1,5 +1,7 @@
 # server-project
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca26d256-3905-4db4-b147-81a6ac823c01/deploy-status)](https://app.netlify.com/sites/server-project/deploys)
+
 ## Project Setup
 
 1. Make sure that either [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Miniforge](https://github.com/conda-forge/miniforge) is installed
@@ -21,7 +23,10 @@ conda activate server-project
   * Open `backend/app.py`
   * Click the python interpreter in the bottom left
   * Select `Python 3.8.10 64-bit ('server-project': conda)`
-7. Run Project
+7. Add Mongo URI
+  * Create a file called `.env` in `backend`
+  * Add `MONGO_URI=[Connection String]`
+8. Run Project
 ```
 cd frontend
 conda activate server-project
