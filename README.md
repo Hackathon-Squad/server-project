@@ -26,7 +26,10 @@ conda activate server-project
 7. Add Mongo URI
   * Create a file called `.env` in `backend`
   * Add `MONGO_URI=[Connection String]`
-8. Run Project
+8. Add API URL
+  * Create a file called `.env` in `frontend`
+  * Add `REACT_APP_API_URL="http://localhost:5000/"` to the file
+9. Run Project
 ```
 cd frontend
 conda activate server-project
