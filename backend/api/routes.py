@@ -21,6 +21,4 @@ def connectToDB():
 
 @api.route("/generateSchedules", methods=["POST"])
 def generateSchedules():
-    classes = request.get_json()["classes"]
-    generateAllSchedules(classes)
-    return "works"
+    return generateAllSchedules(request.get_json()["classes"])

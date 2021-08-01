@@ -1,0 +1,69 @@
+{
+  "CSE 100": {
+    "units": 4,
+    "lectures": [
+      {
+        "code": "A00",
+        "day": "MWF",
+        "startTime": {
+          "hour": 10,
+          "minute": 0,
+          "timeOfDay": "a"
+        },
+        "endTime": {
+          "hour": 10,
+          "minute": 50,
+          "timeOfDay": "a"
+        },
+        "sections": [
+          {
+            "code": "A01",
+            "day": "M",
+            "startTime": {
+              "hour": 8,
+              "minute": 0,
+              "timeOfDay": "p"
+            },
+            "endTime": {
+              "hour": 8,
+              "minute": 50,
+              "timeOfDay": "p"
+            }
+          }
+        ]
+      },
+      {
+        "code": "B00",
+        "day": "MWF",
+        "startTime": {
+          "hour": 11,
+          "minute": 0,
+          "timeOfDay": "a"
+        },
+        "endTime": {
+          "hour": 11,
+          "minute": 50,
+          "timeOfDay": "a"
+        },
+        "sections": [
+          {
+            "code": "B01",
+            "day": "M",
+            "startTime": {
+              "hour": 7,
+              "minute": 0,
+              "timeOfDay": "p"
+            },
+            "endTime": {
+              "hour": 7,
+              "minute": 50,
+              "timeOfDay": "p"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "ECE 35": {},
+  "PHYS 2B": {}
+}
